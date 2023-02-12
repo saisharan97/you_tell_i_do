@@ -1,0 +1,46 @@
+*body {
+  margin: 0;
+}
+
+.overall-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #66ccff;
+}
+
+.login-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3399ff;
+}
+
+.button {
+  background-color: #000000;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+* input {
+  padding: 5px;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 5px;
+}
